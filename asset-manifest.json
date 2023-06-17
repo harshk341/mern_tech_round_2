@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mern_tech_round_2/static/css/main.4da62354.css",
+    "main.js": "/mern_tech_round_2/static/js/main.3b20334c.js",
+    "static/js/787.8d2620c6.chunk.js": "/mern_tech_round_2/static/js/787.8d2620c6.chunk.js",
+    "index.html": "/mern_tech_round_2/index.html",
+    "main.4da62354.css.map": "/mern_tech_round_2/static/css/main.4da62354.css.map",
+    "main.3b20334c.js.map": "/mern_tech_round_2/static/js/main.3b20334c.js.map",
+    "787.8d2620c6.chunk.js.map": "/mern_tech_round_2/static/js/787.8d2620c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4da62354.css",
+    "static/js/main.3b20334c.js"
+  ]
+}
