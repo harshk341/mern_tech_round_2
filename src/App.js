@@ -1,25 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { createGlobalStyle } from "styled-components";
+import Home from "./pages/home";
 
-function App() {
+const GlobalStyle = createGlobalStyle`
+  :root {
+    --font-family: 'Rubik', sans-serif;
+    
+    --color-primary: #2A4F6D;
+    --color-secondary : #F79633;
+    --color-text: #212529;
+  }
+  body, input, textarea {
+    font-family: var(--font-family);
+    color: var(--color-text);
+  }
+  a, a:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+  button,
+  button:focus,
+  button:active {
+    outline: 0
+  }
+  section {
+    padding: 60px 0;
+    overflow: hidden;
+  }
+  p {
+    margin-bottom: 0.8rem;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+`;
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <GlobalStyle />
+      <Home />
+    </>
   );
-}
+};
 
 export default App;
